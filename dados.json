@@ -1,0 +1,168 @@
+{
+  "historia": [
+    {
+      "ano": "2021",
+      "titulo": "Bacharelado em Naturologia & Compreensão da Causa Raiz",
+      "descricao": "Conclusão de formação focada na análise sistêmica do ser humano, identificação de causas profundas de desequilíbrios e observação rigorosa de padrões comportamentais."
+    },
+    {
+      "ano": "2024",
+      "titulo": "Formação Técnica Contábil & Atuação Operacional",
+      "descricao": "Conclusão do Técnico em Contabilidade (ETEC) e atuação direta em rotinas fiscais e escrituração, optando pela ética irrestrita em detrimento de conveniências de mercado."
+    },
+    {
+      "ano": "2025 - Presente",
+      "titulo": "Graduação em Ciências Contábeis & Especialização Financeira",
+      "descricao": "Aprofundamento acadêmico e preparação rigorosa rumo ao mercado financeiro e compliance, integrando finanças corporativas, automação e análise de comportamento."
+    }
+  ],
+  "competencias": {
+    "comprovadas": [
+      "Prática Contábil Operacional & Fiscal",
+      "Organização Patrimonial e Financeira",
+      "Automação de Processos Administrativos",
+      "Ética e Conformidade Rigorosa",
+      "Análise Sistêmica e Autodidatismo"
+    ],
+    "desenvolvimento": [
+      "Ciências Contábeis (Graduação em andamento)",
+      "Certificação Financeira (Preparatório CPA)",
+      "Lógica de Programação (Python / Vanilla JS)",
+      "IA Aplicada à Eficiência Operacional",
+      "Comportamento Organizacional"
+    ],
+    "futuras": [
+      "Governança Corporativa e Compliance Avançado",
+      "Auditoria Interna e Gestão de Riscos",
+      "Método Integrado de Governança Familiar/Empresarial"
+    ]
+  },
+  "formacao": [
+    {
+      "curso": "Ciências Contábeis (Bacharelado)",
+      "instituicao": "Em andamento — Previsão 2028",
+      "periodo": "2025 - Presente"
+    },
+    {
+      "curso": "Técnico em Contabilidade",
+      "instituicao": "ETEC / Centro Paula Souza",
+      "periodo": "Concluído em 2024"
+    },
+    {
+      "curso": "Naturologia (Bacharelado)",
+      "instituicao": "Universidade Anhembi Morumbi",
+      "periodo": "Concluído em 2021"
+    }
+  ],
+  "certificacoes": [
+    {
+      "nome": "Técnico em Contabilidade",
+      "emissor": "Conselho Regional de Contabilidade / ETEC",
+      "ano": "2024",
+      "status": "Concluída"
+    },
+    {
+      "nome": "Certificação CPA (ANBIMA)",
+      "emissor": "ANBIMA",
+      "ano": "2026",
+      "status": "Em Preparação Direcionada"
+    }
+  ],
+  "experiencias": [
+    {
+      "cargo": "Assistente Contábil / Fiscal",
+      "empresa": "Escritórios de Contabilidade",
+      "periodo": "2023 - 2025",
+      "descricao": "Execução de rotinas fiscais, escrituração contábil, conciliações e suporte direto ao compliance de pequenas e médias empresas, aplicando automações para redução de erros.",
+      "tags": ["Escrituração", "Rotina Fiscal", "Excel Avançado", "Compliance"]
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Método de Integridade & Governança Sistêmica",
+      "status": "Em Pesquisa & Validação",
+      "descricao": "Desenvolvimento de matriz conceitual para mapear desequilíbrios financeiros causados por falhas de comportamento organizacional e lacunas de processos.",
+      "aprendizados": "A maioria dos desperdícios financeiros não é matemática, é comportamental.",
+      "tecnologias": ["Análise Financeira", "Mapeamento de Processos", "Matriz Ética"]
+    },
+    {
+      "titulo": "Automação Operacional de Rotinas Administrativas",
+      "status": "Concluído",
+      "descricao": "Scripts em Python/JS para limpeza de dados fiscais e geração automatizada de relatórios contábeis internos.",
+      "aprendizados": "Programação é uma ferramenta de precisão operacional, não um fim em si mesmo.",
+      "tecnologias": ["Python", "JavaScript", "Processamento de Dados"]
+    }
+  ],
+  "pesquisas": [
+    {
+      "titulo": "A Causa Raiz do Desperdício em Pequenas Empresas",
+      "fase": "Coleta de Dados Pessoais e Estudo de Casos",
+      "resumo": "Investigação sobre como desalinhamentos culturais e ruídos de comunicação geram retrabalho e sangria de caixa invisível."
+    }
+  ],
+  "estudosAtuais": [
+    {
+      "topico": "Direito Tributário e Compliance",
+      "foco": "Estudo das atualizações tributárias e normas internacionais de conformidade."
+    },
+    {
+      "topico": "Preparatório Financeiro CPA",
+      "foco": "Análise de mercados financeiros, produtos de investimento e gestão de risco."
+    },
+    {
+      "topico": "Automação com Python e JS Vanilla",
+      "foco": "Construção de utilitários simples sem dependências externas."
+    }
+  ],
+  "desenvolvimentoCurso": {
+    "nome": "Estrutura do Método Integrado de Governança Pessoal e Empresarial",
+    "progresso": "Modelagem Teórica",
+    "objetivo": "Sintetizar a relação entre organização financeira, disciplina e ética em um modelo pedagógico claro.",
+    "etapaAtual": "Mapeamento de módulos e fundamentação bibliográfica."
+  },
+  "livros": [
+    {
+      "titulo": "Rápido e Devagar: Duas Formas de Pensar",
+      "autor": "Daniel Kahneman",
+      "categoria": "Comportamento & Filosofia",
+      "insights": "Compreensão crucial sobre como viéses cognitivos afetam decisões econômicas."
+    },
+    {
+      "titulo": "A Lógica do Cisne Negro",
+      "autor": "Nassim Nicholas Taleb",
+      "categoria": "Finanças & Gestão",
+      "insights": "A importância da robustez, antifragilidade e gestão rigorosa do risco."
+    },
+    {
+      "titulo": "O Código Limpo (Clean Code)",
+      "autor": "Robert C. Martin",
+      "categoria": "Tecnologia & Processos",
+      "insights": "Princípios de clareza, simplicidade e manutenção aplicáveis tanto ao código quanto aos processos de negócios."
+    }
+  ],
+  "artigos": [
+    {
+      "titulo": "Por Que o Desperdício Humano Sempre Antecede o Financeiro",
+      "data": "Março, 2026",
+      "resumo": "Uma reflexão analítica sobre como a falta de clareza nos papéis e a ineficiência de processos corroem margens de lucro antes de aparecerem no balanço."
+    }
+  ],
+  "roadmap": [
+    {
+      "horizonte": "Curto Prazo (2026)",
+      "objetivo": "Obtenção da Certificação ANBIMA & Consolidação Acadêmica",
+      "detalhes": "Avanço contínuo na graduação em Ciências Contábeis e inserção formal no mercado financeiro/compliance."
+    },
+    {
+      "horizonte": "Médio Prazo (2027-2028)",
+      "objetivo": "Atuação Profissional em Auditoria ou Governança",
+      "detalhes": "Aplicação prática de rotinas de auditoria, análise de riscos e conformidade corporativa."
+    }
+  ],
+  "contato": {
+    "linkedin": "https://www.linkedin.com/in/fernandosanchez",
+    "github": "https://github.com/fernandosanchez",
+    "email": "contato@fernandosanchez.com.br",
+    "whatsapp": "https://wa.me/5511999999999"
+  }
+}
