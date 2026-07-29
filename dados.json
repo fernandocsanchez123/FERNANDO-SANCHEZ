@@ -1,168 +1,152 @@
 {
-  "historia": [
+  "sobre": [
     {
-      "ano": "2021",
-      "titulo": "Bacharelado em Naturologia & Compreensão da Causa Raiz",
-      "descricao": "Conclusão de formação focada na análise sistêmica do ser humano, identificação de causas profundas de desequilíbrios e observação rigorosa de padrões comportamentais."
+      "ano": "Início",
+      "titulo": "Base Técnica e Princípios",
+      "descricao": "Início da trajetória com foco absoluto em rigor técnico, ética e integridade nas rotinas contábeis e fiscais."
     },
     {
-      "ano": "2024",
-      "titulo": "Formação Técnica Contábil & Atuação Operacional",
-      "descricao": "Conclusão do Técnico em Contabilidade (ETEC) e atuação direta em rotinas fiscais e escrituração, optando pela ética irrestrita em detrimento de conveniências de mercado."
+      "ano": "Evolução",
+      "titulo": "Prática Operacional & Mapeamento de Gargalos",
+      "descricao": "Atuação direta em rotinas de escrituração, conciliações e identificação de ineficiências em processos financeiros."
     },
     {
-      "ano": "2025 - Presente",
-      "titulo": "Graduação em Ciências Contábeis & Especialização Financeira",
-      "descricao": "Aprofundamento acadêmico e preparação rigorosa rumo ao mercado financeiro e compliance, integrando finanças corporativas, automação e análise de comportamento."
+      "ano": "Atualidade",
+      "titulo": "Governança, Compliance & Fator Humano",
+      "descricao": "Aprofundamento na convergência entre análise de dados, conformidade e comportamento organizacional para prevenção de desperdícios."
     }
   ],
   "competencias": {
     "comprovadas": [
-      "Prática Contábil Operacional & Fiscal",
-      "Organização Patrimonial e Financeira",
-      "Automação de Processos Administrativos",
-      "Ética e Conformidade Rigorosa",
-      "Análise Sistêmica e Autodidatismo"
+      "Conciliação Contábil & Fiscal",
+      "Escrituração & Obrigações Acessórias",
+      "Análise de DRE e Balancetes",
+      "Rotinas de Compliance Financeiro",
+      "Mapeamento de Ineficiências"
     ],
     "desenvolvimento": [
-      "Ciências Contábeis (Graduação em andamento)",
-      "Certificação Financeira (Preparatório CPA)",
-      "Lógica de Programação (Python / Vanilla JS)",
-      "IA Aplicada à Eficiência Operacional",
-      "Comportamento Organizacional"
+      "Automação com Python & JS",
+      "Análise de Comportamento Organizacional",
+      "Modelagem de Dados para Auditoria",
+      "Frameworks COSO ERM & ISO 37301"
     ],
     "futuras": [
-      "Governança Corporativa e Compliance Avançado",
-      "Auditoria Interna e Gestão de Riscos",
-      "Método Integrado de Governança Familiar/Empresarial"
+      "Design de Programas de Compliance",
+      "Governança Corporativa Avançada",
+      "Liderança Sistêmica e Integridade"
     ]
   },
   "formacao": [
     {
-      "curso": "Ciências Contábeis (Bacharelado)",
-      "instituicao": "Em andamento — Previsão 2028",
-      "periodo": "2025 - Presente"
+      "curso": "Bacharelado em Ciências Contábeis",
+      "instituicao": "Universidade (Em andamento)",
+      "periodo": "Em andamento",
+      "status": "Em Formação"
     },
     {
       "curso": "Técnico em Contabilidade",
-      "instituicao": "ETEC / Centro Paula Souza",
-      "periodo": "Concluído em 2024"
-    },
-    {
-      "curso": "Naturologia (Bacharelado)",
-      "instituicao": "Universidade Anhembi Morumbi",
-      "periodo": "Concluído em 2021"
+      "instituicao": "Instituição Técnica",
+      "periodo": "Concluído",
+      "status": "Concluído"
     }
   ],
   "certificacoes": [
     {
-      "nome": "Técnico em Contabilidade",
-      "emissor": "Conselho Regional de Contabilidade / ETEC",
-      "ano": "2024",
-      "status": "Concluída"
+      "nome": "Certidão de Regularidade / Registro Técnico",
+      "emissor": "Conselho de Contabilidade",
+      "status": "Ativo"
     },
     {
-      "nome": "Certificação CPA (ANBIMA)",
-      "emissor": "ANBIMA",
-      "ano": "2026",
-      "status": "Em Preparação Direcionada"
-    }
-  ],
-  "experiencias": [
-    {
-      "cargo": "Assistente Contábil / Fiscal",
-      "empresa": "Escritórios de Contabilidade",
-      "periodo": "2023 - 2025",
-      "descricao": "Execução de rotinas fiscais, escrituração contábil, conciliações e suporte direto ao compliance de pequenas e médias empresas, aplicando automações para redução de erros.",
-      "tags": ["Escrituração", "Rotina Fiscal", "Excel Avançado", "Compliance"]
+      "nome": "Compliance & Governança Corporativa",
+      "emissor": "Cursos de Extensão",
+      "status": "Concluído"
     }
   ],
   "projetos": [
     {
-      "titulo": "Método de Integridade & Governança Sistêmica",
-      "status": "Em Pesquisa & Validação",
-      "descricao": "Desenvolvimento de matriz conceitual para mapear desequilíbrios financeiros causados por falhas de comportamento organizacional e lacunas de processos.",
-      "aprendizados": "A maioria dos desperdícios financeiros não é matemática, é comportamental.",
-      "tecnologias": ["Análise Financeira", "Mapeamento de Processos", "Matriz Ética"]
+      "titulo": "Método Integrado de Governança Pessoal e Empresarial",
+      "categoria": "Metodologia",
+      "descricao": "Estrutura autoral para alinhamento entre finanças domésticas, controles operacionais e conformidade para pequenas empresas.",
+      "link": "#"
     },
     {
-      "titulo": "Automação Operacional de Rotinas Administrativas",
-      "status": "Concluído",
-      "descricao": "Scripts em Python/JS para limpeza de dados fiscais e geração automatizada de relatórios contábeis internos.",
-      "aprendizados": "Programação é uma ferramenta de precisão operacional, não um fim em si mesmo.",
-      "tecnologias": ["Python", "JavaScript", "Processamento de Dados"]
+      "titulo": "Automações de Conciliação e Limpeza de Dados",
+      "categoria": "Tecnologia & Processos",
+      "descricao": "Scripts em Python e JavaScript focados em acelerar a conferência de dados contábeis e eliminar retrabalho manual.",
+      "link": "#"
     }
   ],
-  "pesquisas": [
-    {
-      "titulo": "A Causa Raiz do Desperdício em Pequenas Empresas",
-      "fase": "Coleta de Dados Pessoais e Estudo de Casos",
-      "resumo": "Investigação sobre como desalinhamentos culturais e ruídos de comunicação geram retrabalho e sangria de caixa invisível."
-    }
+  "estudos": [
+    "Psicologia Comportamental aplicada a Riscos Corporativos",
+    "Automação de Processos de Auditoria com Python",
+    "Frameworks de Gestão de Riscos (COSO ERM, ISO 31000)",
+    "Normas Internacionais de Contabilidade (IFRS/CPC)"
   ],
-  "estudosAtuais": [
-    {
-      "topico": "Direito Tributário e Compliance",
-      "foco": "Estudo das atualizações tributárias e normas internacionais de conformidade."
-    },
-    {
-      "topico": "Preparatório Financeiro CPA",
-      "foco": "Análise de mercados financeiros, produtos de investimento e gestão de risco."
-    },
-    {
-      "topico": "Automação com Python e JS Vanilla",
-      "foco": "Construção de utilitários simples sem dependências externas."
-    }
-  ],
-  "desenvolvimentoCurso": {
-    "nome": "Estrutura do Método Integrado de Governança Pessoal e Empresarial",
-    "progresso": "Modelagem Teórica",
-    "objetivo": "Sintetizar a relação entre organização financeira, disciplina e ética em um modelo pedagógico claro.",
-    "etapaAtual": "Mapeamento de módulos e fundamentação bibliográfica."
+  "curso": {
+    "titulo": "Estruturação de Método de Governança Integrada",
+    "status": "Em Desenvolvimento (Não Comercial)",
+    "descricao": "Compilação acadêmica de boas práticas de compliance, educação financeira e análise comportamental voltada para micro e pequenos empreendedores."
   },
   "livros": [
     {
-      "titulo": "Rápido e Devagar: Duas Formas de Pensar",
-      "autor": "Daniel Kahneman",
+      "titulo": "Comporte-se",
+      "autor": "Robert Sapolsky",
       "categoria": "Comportamento & Filosofia",
-      "insights": "Compreensão crucial sobre como viéses cognitivos afetam decisões econômicas."
+      "capa": "assets/images/capas/comportese.jpg"
     },
     {
-      "titulo": "A Lógica do Cisne Negro",
-      "autor": "Nassim Nicholas Taleb",
+      "titulo": "Manual de Contabilidade Societária",
+      "autor": "FIPECAFI",
       "categoria": "Finanças & Gestão",
-      "insights": "A importância da robustez, antifragilidade e gestão rigorosa do risco."
+      "capa": "assets/images/capas/manual-contabilidade.jpg"
     },
     {
-      "titulo": "O Código Limpo (Clean Code)",
+      "titulo": "Clean Code",
       "autor": "Robert C. Martin",
       "categoria": "Tecnologia & Processos",
-      "insights": "Princípios de clareza, simplicidade e manutenção aplicáveis tanto ao código quanto aos processos de negócios."
+      "capa": "assets/images/capas/clean-code.jpg"
+    },
+    {
+      "titulo": "O Gestor Eficaz",
+      "autor": "Peter Drucker",
+      "categoria": "Finanças & Gestão",
+      "capa": "assets/images/capas/gestor-eficaz.jpg"
     }
   ],
   "artigos": [
     {
-      "titulo": "Por Que o Desperdício Humano Sempre Antecede o Financeiro",
-      "data": "Março, 2026",
-      "resumo": "Uma reflexão analítica sobre como a falta de clareza nos papéis e a ineficiência de processos corroem margens de lucro antes de aparecerem no balanço."
+      "titulo": "O Papel da Cultura Organizacional na Eficiência Financeira",
+      "data": "2025",
+      "resumo": "Uma reflexão sobre como o comportamento dos colaboradores reflete diretamente na saúde de caixa da empresa.",
+      "link": "assets/documents/artigos/desperdicio-humano.pdf"
+    },
+    {
+      "titulo": "Automação sem Firulas no Setor Contábil",
+      "data": "2025",
+      "resumo": "Como utilizar scripts simples para resolver problemas rotineiros de conciliação bancária e fiscal.",
+      "link": "assets/documents/artigos/automacao-operacional.pdf"
     }
   ],
   "roadmap": [
     {
-      "horizonte": "Curto Prazo (2026)",
-      "objetivo": "Obtenção da Certificação ANBIMA & Consolidação Acadêmica",
-      "detalhes": "Avanço contínuo na graduação em Ciências Contábeis e inserção formal no mercado financeiro/compliance."
+      "fase": "Fase 1",
+      "titulo": "Consolidação Acadêmica e Técnica",
+      "meta": "Conclusão da graduação em Ciências Contábeis e ampliação do portfólio de automações de processos."
     },
     {
-      "horizonte": "Médio Prazo (2027-2028)",
-      "objetivo": "Atuação Profissional em Auditoria ou Governança",
-      "detalhes": "Aplicação prática de rotinas de auditoria, análise de riscos e conformidade corporativa."
+      "fase": "Fase 2",
+      "titulo": "Aprofundamento em Compliance & Riscos",
+      "meta": "Especialização em Governança Corporativa e certificações em Gestão de Riscos / ISOs."
+    },
+    {
+      "fase": "Fase 3",
+      "titulo": "Consultoria e Pesquisa Aplicada",
+      "meta": "Aplicação em escala do Método Integrado de Governança para empresas emergentes."
     }
   ],
   "contato": {
+    "email": "fernando.sanchez@exemplo.com",
     "linkedin": "https://www.linkedin.com/in/fernando-sanchez-ba98a1273/",
-    "github": "https://github.com/fernandocsanchez123/FERNANDO-SANCHEZ",
-    "email": "fernandocsanchez@hotmail.com",
-    "whatsapp": "https://wa.me/5511945970473"
+    "github": "https://github.com/fernandocsanchez123/FERNANDO-SANCHEZ"
   }
 }
