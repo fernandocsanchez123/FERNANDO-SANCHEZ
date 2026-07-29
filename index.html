@@ -3,22 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernando Sanchez | Ciências Contábeis, Automação & Governança</title>
-    <meta name="description" content="Portfólio acadêmico e técnico de Fernando Sanchez. Ciências Contábeis, Automação em Python/JS, Compliance e Governança Sistêmica.">
+    <title>Fernando Sanchez | Finanças, Compliance & Comportamento Organizacional</title>
+    <meta name="description" content="Central Profissional e Hub de Pesquisas de Fernando Sanchez. Ciências Contábeis, Compliance, Governança e Análise de Comportamento Organizacional.">
     <meta name="author" content="Fernando Sanchez">
     <meta name="robots" content="index, follow">
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Fernando Sanchez | Central Profissional">
+    <meta property="og:description" content="Contabilidade, Compliance, Finanças e Comportamento Organizacional.">
+    <meta property="og:url" content="https://darkslateblue-chamois-896733.hostingersite.com">
+    <meta property="og:image" content="https://darkslateblue-chamois-896733.hostingersite.com/assets/images/og-cover.jpg">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fernando Sanchez | Central Profissional">
+    <meta name="twitter:description" content="Contabilidade, Compliance, Finanças e Comportamento Organizacional.">
+    <meta name="twitter:image" content="https://darkslateblue-chamois-896733.hostingersite.com/assets/images/og-cover.jpg">
+
+    <!-- Favicons & Manifest -->
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#09090b">
 
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Schema.org Person JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Fernando Sanchez",
-      "jobTitle": "Técnico Contábil & Desenvolvedor Full Stack em Formação",
+      "jobTitle": "Técnico Contábil & Estrategista em Governança",
+      "url": "https://darkslateblue-chamois-896733.hostingersite.com",
       "sameAs": [
         "https://www.linkedin.com/in/fernando-sanchez-ba98a1273/",
         "https://github.com/fernandocsanchez123/FERNANDO-SANCHEZ"
@@ -26,10 +44,10 @@
       "knowsAbout": [
         "Contabilidade",
         "Compliance",
-        "Python",
-        "JavaScript",
-        "Automação de Processos",
-        "Governança Corporativa"
+        "Governança Corporativa",
+        "Finanças",
+        "Comportamento Organizacional",
+        "Automação de Processos"
       ]
     }
     </script>
@@ -50,7 +68,9 @@
                     <li><a href="#experiencia" class="nav-link">Trajetória</a></li>
                     <li><a href="#projetos" class="nav-link">Projetos</a></li>
                     <li><a href="#pesquisas" class="nav-link">Pesquisas</a></li>
-                    <li><a href="#biblioteca" class="nav-link">Biblioteca</a></li>
+                    <li><a href="#estudos" class="nav-link">Estudos</a></li>
+                    <li><a href="#biblioteca" class="nav-link">Livros</a></li>
+                    <li><a href="#artigos" class="nav-link">Artigos</a></li>
                     <li><a href="#contato" class="nav-link">Contato</a></li>
                 </ul>
             </nav>
@@ -59,6 +79,9 @@
                 <button id="theme-toggle" class="icon-btn" aria-label="Alternar Tema Claro/Escuro" type="button">
                     <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
                     <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <button id="mobile-toggle" class="icon-btn mobile-menu-btn" aria-label="Abrir Menu de Navegação" type="button" aria-expanded="false" aria-controls="nav-menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
                 </button>
             </div>
         </div>
@@ -69,236 +92,271 @@
         <section id="hero" class="section hero-section">
             <div class="container hero-grid">
                 <div class="hero-content">
-                    <span class="badge">Graduando em Ciências Contábeis | Dev Full Stack em Formação</span>
-                    <h1 class="hero-title">Fernando Sanchez</h1>
-                    <p class="hero-headline">Técnico Contábil, Automação de Processos & Governança</p>
-                    <p class="hero-mission">Integrando precisão contábil, desenvolvimento de rotinas de automação (Python/JS) e análise comportamental para eliminar ineficiências e fortalecer a governança operacional.</p>
+                    <span class="badge" id="hero-status">Graduando em Ciências Contábeis</span>
+                    <h1 class="hero-title" id="hero-name">Fernando Sanchez</h1>
+                    <p class="hero-headline" id="hero-headline">Contabilidade, Compliance, Finanças & Comportamento Organizacional</p>
+                    <p class="hero-mission" id="hero-mission">Conectando análise contábil, governança e fator humano para identificar as causas profundas dos desperdícios e ineficiências em empresas e famílias.</p>
                     
                     <div class="hero-actions">
                         <a href="https://www.linkedin.com/in/fernando-sanchez-ba98a1273/" target="_blank" rel="noopener" class="btn btn-primary">
                             <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
                             LinkedIn
                         </a>
-                        <!-- Item 1 Solicitado: Botão com download direto do Currículo Atualizado -->
-                        <a href="assets/documents/curriculo.pdf" download="Fernando_Sanchez_Curriculo.pdf" class="btn btn-secondary">
+
+                        <!-- Tarefa 9 & 10: Botão Currículo PDF apontando para o arquivo correto -->
+                        <a href="assets/documents/curriculo.pdf" target="_blank" download class="btn btn-secondary">
                             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-                            Baixar Currículo PDF
+                            Currículo PDF
                         </a>
+
+                        <a href="#projetos" class="btn btn-tertiary">Projetos</a>
+                        <a href="#contato" class="btn btn-tertiary">Contato</a>
                     </div>
                 </div>
                 <div class="hero-avatar-wrapper">
-                    <img src="assets/images/profile.jpg" alt="Foto profissional de Fernando Sanchez" class="hero-avatar" width="320" height="320">
+                    <img src="assets/images/profile.jpg" alt="Foto profissional de Fernando Sanchez" class="hero-avatar" loading="eager" width="320" height="320">
                 </div>
             </div>
         </section>
 
-        <!-- Competências e Matriz de Transparência -->
-        <!-- Item 9 Solicitado: Tooltips interativos com leituras associadas -->
+        <!-- História Interativa -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Minha História</h2>
+                    <p>Trajetória pautada na integridade não negociável, rigor técnico e busca constante das causas raízes.</p>
+                </div>
+                <div class="timeline" id="timeline-historia" role="region" aria-label="Linha do tempo interativa"></div>
+            </div>
+        </section>
+
+        <!-- Competências & Matriz de Transparência -->
+        <!-- Tarefa 8: Tooltips com sugestões de leitura adicionados via data-tooltip -->
         <section id="competencias" class="section alt-bg">
             <div class="container">
                 <div class="section-header">
                     <h2>Competências & Matriz de Transparência</h2>
-                    <p>Mapeamento claro da prática demonstrável, metas em construção e visões de longo prazo.</p>
+                    <p>Clareza absoluta entre a prática comprovada, o aprendizado atual e os compromissos futuros.</p>
                 </div>
                 <div class="competencies-grid">
-                    <div class="card comp-card" data-tooltip="Leituras de Suporte: Contabilidade Introdutória (Marion), Manual de Contabilidade Societária, CPCs Principais (00, 16, 27).">
+                    <div class="card comp-card" data-tooltip="Leituras sugeridas: Contabilidade Introdutória (Marion), Manual de Contabilidade Societária, CPCs Principais (00, 16, 27).">
                         <div class="comp-status status-proven"></div>
                         <h3>Comprovadas</h3>
-                        <p class="comp-desc">Prática vivenciada no dia a dia contábil e fiscal.</p>
-                        <ul class="tag-list">
-                            <li>Rotinas Contábeis & Fiscais</li>
-                            <li>Conciliação & Escrituração</li>
-                            <li>Contimatic / Excel Avançado</li>
-                            <li>Limpeza & Higienização de Dados</li>
-                            <li>Compliance Operacional</li>
-                        </ul>
+                        <p class="comp-desc">Vivência prática, sustentada por execução real e princípios firmes.</p>
+                        <ul class="tag-list" id="comp-comprovadas"></ul>
                     </div>
 
-                    <div class="card comp-card" data-tooltip="Leituras de Suporte: Clean Code (Martin), O Programador Pragmático, Estruturas de Dados, Comportamento (Sapolsky), Rápido e Devagar (Kahneman).">
+                    <div class="card comp-card" data-tooltip="Leituras sugeridas: Clean Code (Martin), O Programador Pragmático, Comporte-se (Sapolsky), Rápido e Devagar (Kahneman).">
                         <div class="comp-status status-dev"></div>
                         <h3>Em Desenvolvimento</h3>
-                        <p class="comp-desc">Aprofundamento técnico diário em código e teoria.</p>
-                        <ul class="tag-list">
-                            <li>Automações em Python (Pandas/Scripts)</li>
-                            <li>Desenvolvimento Full Stack (JS/Node)</li>
-                            <li>Análise de Causa Raiz</li>
-                            <li>Modelagem de Processos</li>
-                        </ul>
+                        <p class="comp-desc">Estudo contínuo ativo, sem atribuição de domínio precoce.</p>
+                        <ul class="tag-list" id="comp-desenvolvimento"></ul>
                     </div>
 
-                    <div class="card comp-card" data-tooltip="Leituras de Suporte: COSO ERM, COBIT 2019, ISO 37301, ISO 37001, PMBOK, O Melhor de Peter Drucker.">
+                    <div class="card comp-card" data-tooltip="Leituras sugeridas: COSO ERM, COBIT 2019, ISO 37301, ISO 37001, O Gestor Eficaz (Drucker).">
                         <div class="comp-status status-future"></div>
                         <h3>Visão de Futuro</h3>
-                        <p class="comp-desc">Alvos estratégicos de carreira e especialização.</p>
-                        <ul class="tag-list">
-                            <li>Governança Corporativa Sistêmica</li>
-                            <li>Auditoria Contábil Automatizada</li>
-                            <li>Arquitetura de Controles Internos</li>
-                            <li>Gestão de Riscos Operacionais</li>
-                        </ul>
+                        <p class="comp-desc">Metas de longo prazo em compliance e governança corporativa.</p>
+                        <ul class="tag-list" id="comp-futuras"></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formação & Certificações -->
+        <section id="formacao" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Formação & Certificações</h2>
+                    <p>Evolução acadêmica, qualificações técnicas e certidões ativas.</p>
+                </div>
+                <div class="grid-2col">
+                    <div>
+                        <h3 class="subsection-title">Formação Acadêmica</h3>
+                        <div class="timeline-simple" id="container-formacao"></div>
+                    </div>
+                    <div>
+                        <h3 class="subsection-title">Certificações</h3>
+                        <div class="cards-stack" id="container-certificacoes"></div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Experiência Profissional -->
-        <!-- Item 8 Solicitado: Card interativo com Janela Modal do histórico real -->
-        <section id="experiencia" class="section">
+        <!-- Tarefa 6 & 10: Card preparado para abrir o PDF de experiências em nova aba ao clicar -->
+        <section id="experiencia" class="section alt-bg">
             <div class="container">
                 <div class="section-header">
                     <h2>Trajetória Profissional</h2>
-                    <p>Experiência prática fundamentada na melhoria contínua de processos contábeis e fiscais.</p>
+                    <p>Atuação focada na execução técnica contábil, precisão operacional e conformidade ética.</p>
                 </div>
-                <div class="cards-grid">
-                    <div class="card interactive-card" onclick="openModal('modal-exp-assistente')">
+                <div class="cards-grid" id="container-experiencias">
+                    <!-- Estrutura estática de contingência configurada com clique para o PDF -->
+                    <div class="card interactive-card" onclick="window.open('assets/documents/experiencias.pdf', '_blank')" style="cursor: pointer;">
                         <div class="card-tag">Experiência Real</div>
                         <h3>Assistente Contábil / Fiscal</h3>
-                        <p class="card-subtitle">Escritórios Contábeis | Clique para ver detalhes e entregas</p>
+                        <p class="card-subtitle">Escritórios Contábeis | Clique para abrir documento em PDF</p>
                         <p>Atuação em conciliações, escrituração fiscal, conferência de obrigações e identificação de gargalos operacionais.</p>
-                        <span class="card-link">Ver detalhes da trajetória →</span>
+                        <span class="card-link">Ver histórico em PDF →</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Pesquisas e Artigos (Abertura de PDFs Modernos) -->
-        <!-- Itens 2, 4, 5, 6, 7 Solicitados: Cards apontando para PDFs acadêmicos e técnicos -->
+        <!-- Projetos e Método -->
+        <section id="projetos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Projetos & Método Autoral</h2>
+                    <p>Iniciativas focadas em integração entre finanças, eficiência operacional e o fator humano.</p>
+                </div>
+                <div class="cards-grid" id="container-projetos"></div>
+            </div>
+        </section>
+
+        <!-- Pesquisas & Investigação Ativa -->
+        <!-- Tarefas 1, 2, 3, 4, 5 & 10: Cards estáticos de artigos apontando para os PDFs em nova aba -->
         <section id="pesquisas" class="section alt-bg">
             <div class="container">
                 <div class="section-header">
-                    <h2>Pesquisas & Produção Técnica</h2>
-                    <p>Investigações em andamento sobre eficiência, governança, automação e fator humano.</p>
+                    <h2>Pesquisas & Investigação Ativa</h2>
+                    <p>Projetos de pesquisa dedicados a investigar a causa oculta das ineficiências humanas e financeiras.</p>
                 </div>
-                <div class="cards-grid">
-                    <!-- Item 2 -->
-                    <div class="card pdf-card" onclick="openPDF('assets/documents/artigos/desperdicio-humano.pdf')">
-                        <div class="card-tag">Artigo Acadêmico (ABNT)</div>
+                <div class="cards-grid" id="container-pesquisas">
+                    <!-- Tarefa 1 -->
+                    <div class="card pdf-card" onclick="window.open('assets/documents/artigos/desperdicio-humano.pdf', '_blank')" style="cursor: pointer;">
+                        <div class="card-tag">Artigo Acadêmico</div>
                         <h3>Por Que o Desperdício Humano Sempre Antecede o Financeiro</h3>
-                        <p>Análise sistêmica fundamentada em Drucker, Deming, Kahneman e Sapolsky sobre a origem do esgotamento de recursos em empresas.</p>
+                        <p>Análise sistêmica fundamentada na origem do esgotamento de recursos em empresas.</p>
                         <span class="card-link">Visualizar Artigo em PDF →</span>
                     </div>
 
-                    <!-- Item 4 -->
-                    <div class="card pdf-card" onclick="openPDF('assets/documents/artigos/metodo-governanca.pdf')">
-                        <div class="card-tag">White Paper (Em Dev.)</div>
+                    <!-- Tarefa 2 -->
+                    <div class="card pdf-card" onclick="window.open('assets/documents/artigos/metodo-integrado.pdf', '_blank')" style="cursor: pointer;">
+                        <div class="card-tag">White Paper</div>
                         <h3>Estrutura do Método Integrado de Governança Pessoal e Empresarial</h3>
-                        <p>Apresentação conceitual da hipótese de integração entre controles pessoais, rotinas operacionais e conformidade.</p>
-                        <span class="card-link">Visualizar White Paper →</span>
+                        <p>Integração entre controles pessoais, rotinas operacionais e conformidade.</p>
+                        <span class="card-link">Visualizar White Paper em PDF →</span>
                     </div>
 
-                    <!-- Item 5 -->
-                    <div class="card pdf-card" onclick="openPDF('assets/documents/artigos/causa-raiz.pdf')">
+                    <!-- Tarefa 3 -->
+                    <div class="card pdf-card" onclick="window.open('assets/documents/artigos/causa-raiz.pdf', '_blank')" style="cursor: pointer;">
                         <div class="card-tag">Projeto de Pesquisa</div>
                         <h3>A Causa Raiz do Desperdício em Pequenas Empresas</h3>
-                        <p>Mapeamento de hipóteses e cenários práticos que geram perda invisível de caixa em negócios emergentes.</p>
-                        <span class="card-link">Visualizar Pesquisa →</span>
+                        <p>Mapeamento de hipóteses que geram perda invisível de caixa em negócios emergentes.</p>
+                        <span class="card-link">Visualizar Pesquisa em PDF →</span>
                     </div>
 
-                    <!-- Item 6 -->
-                    <div class="card pdf-card" onclick="openPDF('assets/documents/artigos/integridade-sistemica.pdf')">
+                    <!-- Tarefa 4 -->
+                    <div class="card pdf-card" onclick="window.open('assets/documents/artigos/integridade-sistemica.pdf', '_blank')" style="cursor: pointer;">
                         <div class="card-tag">Estudo em Construção</div>
                         <h3>Método de Integridade & Governança Sistêmica</h3>
-                        <p>Exploração dos limites operacionais, origens conceituais e previsões de evolução teórica da governança.</p>
-                        <span class="card-link">Visualizar Estudo →</span>
+                        <p>Limites operacionais, origens conceituais e evolução teórica da governança.</p>
+                        <span class="card-link">Visualizar Estudo em PDF →</span>
                     </div>
 
-                    <!-- Item 7 -->
-                    <div class="card pdf-card" onclick="openPDF('assets/documents/artigos/automacao-operacional.pdf')">
+                    <!-- Tarefa 5 -->
+                    <div class="card pdf-card" onclick="window.open('assets/documents/artigos/automacao-operacional.pdf', '_blank')" style="cursor: pointer;">
                         <div class="card-tag">Relatório Técnico</div>
                         <h3>Automação Operacional de Rotinas Administrativas</h3>
-                        <p>Demonstração prática do uso de Python, JS e Excel para limpeza de dados, conciliações e redução de retrabalho.</p>
-                        <span class="card-link">Visualizar Documento →</span>
+                        <p>Uso de Python, JS e Excel para limpeza de dados, conciliações e redução de retrabalho.</p>
+                        <span class="card-link">Visualizar Documento em PDF →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estudos Atuais & Curso em Desenvolvimento -->
+        <section id="estudos" class="section">
+            <div class="container">
+                <div class="grid-2col">
+                    <div>
+                        <div class="section-header align-left">
+                            <h2>Estudos Atuais</h2>
+                            <p>Foco contínuo de aprendizado e aprofundamento diário.</p>
+                        </div>
+                        <ul class="study-list" id="container-estudos"></ul>
+                    </div>
+                    <div>
+                        <div class="section-header align-left">
+                            <h2>Desenvolvimento de Método / Curso</h2>
+                            <p>Registro transparente de estruturação acadêmica. Não comercial.</p>
+                        </div>
+                        <div class="card course-dev-card" id="container-curso"></div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Biblioteca Pessoal -->
-        <!-- Item 3 Solicitado: Livro Comporte-se do Robert Sapolsky adicionado -->
-        <section id="biblioteca" class="section">
+        <!-- Tarefa 7: Inclusão do livro "Comporte-se" de Robert Sapolsky -->
+        <section id="biblioteca" class="section alt-bg">
             <div class="container">
                 <div class="section-header">
                     <h2>Biblioteca Pessoal</h2>
-                    <p>Obras que fundamentam meu rigor analítico, visão ética e compreensão comportamental.</p>
+                    <p>Leituras fundamentais que moldam o rigor de análise, visão ética e estruturação sistêmica.</p>
                 </div>
-                <div class="books-grid">
-                    <div class="card book-card">
-                        <img src="assets/images/capas/comportese.jpg" alt="Capa do livro Comporte-se de Robert Sapolsky" class="book-cover" onerror="this.src='https://via.placeholder.com/150x220?text=Comporte-se'">
+                <div class="filter-bar" id="books-filter">
+                    <button class="filter-btn active" data-category="todos">Todos</button>
+                    <button class="filter-btn" data-category="Finanças & Gestão">Finanças & Gestão</button>
+                    <button class="filter-btn" data-category="Comportamento & Filosofia">Comportamento & Filosofia</button>
+                    <button class="filter-btn" data-category="Tecnologia & Processos">Tecnologia & Processos</button>
+                </div>
+                <div class="books-grid" id="container-livros">
+                    <!-- Novo livro adicionado sem alterar o layout original -->
+                    <div class="card book-card" data-category="Comportamento & Filosofia">
+                        <img src="assets/images/capas/comportese.jpg" alt="Capa do livro Comporte-se" class="book-cover" onerror="this.src='https://via.placeholder.com/150x220?text=Comporte-se'">
                         <div class="book-info">
                             <span class="book-category">Comportamento & Filosofia</span>
-                            <h4>Comporte-se: A Biologia Humana em Nosso Melhor e Pior</h4>
+                            <h4>Comporte-se</h4>
                             <p class="book-author">Robert Sapolsky</p>
-                            <p class="book-desc">Uma análise profunda da neurobiologia e do comportamento humano, essencial para compreender a tomada de decisão, estresse e atritos em estruturas organizacionais.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Artigos e Publicações -->
+        <section id="artigos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Artigos & Análises</h2>
+                    <p>Reflexões sobre governança, compliance, finanças e comportamento organizacional.</p>
+                </div>
+                <div class="cards-grid" id="container-artigos"></div>
+            </div>
+        </section>
+
+        <!-- Roadmap -->
+        <section id="roadmap" class="section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Roadmap Profissional</h2>
+                    <p>Metas estruturadas e compromissos de evolução técnica contínua.</p>
+                </div>
+                <div class="roadmap-grid" id="container-roadmap"></div>
+            </div>
+        </section>
+
         <!-- Contato -->
-        <section id="contato" class="section alt-bg">
+        <section id="contato" class="section">
             <div class="container">
                 <div class="contact-box">
                     <div class="section-header">
-                        <h2>Contato Profissional</h2>
-                        <p>Disponível para conversas sobre oportunidades em Contabilidade, Compliance e Automação de Processos.</p>
+                        <h2>Vamos Conversar?</h2>
+                        <p>Aberto a diálogos sobre governança, compliance, inteligência contábil e projetos de impacto sistêmico.</p>
                     </div>
-                    <div class="contact-actions">
-                        <a href="https://www.linkedin.com/in/fernando-sanchez-ba98a1273/" target="_blank" rel="noopener" class="btn btn-primary">Conectar no LinkedIn</a>
-                        <a href="mailto:seu-email@exemplo.com" class="btn btn-secondary">Enviar E-mail</a>
-                    </div>
+                    <div class="contact-links" id="container-contato"></div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Modal de Experiência Profissional (Item 8) -->
-    <div id="modal-exp-assistente" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeModal('modal-exp-assistente')" aria-label="Fechar modal">&times;</button>
-            <h3 id="modal-title">Trajetória Profissional em Escritórios Contábeis</h3>
-            <div class="modal-body">
-                <div class="exp-detail-item">
-                    <h4>Assistente Contábil / Fiscal</h4>
-                    <p class="exp-meta"><strong>Área:</strong> Escritórios de Contabilidade | <strong>Foco:</strong> Operacional e Conformidade</p>
-                    
-                    <h5>Responsabilidades Reais:</h5>
-                    <ul>
-                        <li>Execução de conciliação bancária e escrituração contábil/fiscal de clientes de portes variados.</li>
-                        <li>Análise e conferência para apuração de impostos e obrigações acessórias via sistema Contimatic.</li>
-                        <li>Tratamento, sanitização e validação de bases de dados financeiros utilizando Excel avançado.</li>
-                        <li>Mapeamento manual e identificação de gargalos operacionais em processos administrativos internos.</li>
-                    </ul>
-
-                    <h5>Tecnologias & Ferramentas Aplicadas:</h5>
-                    <p>Contimatic, Microsoft Excel (Procv, Tabela Dinâmica, Fórmulas Lógicas), Python (Scripts iniciais de limpeza), JavaScript e rotinas de validação de dados.</p>
-
-                    <h5>Resultados Alcançados:</h5>
-                    <ul>
-                        <li>Redução no tempo de conferência contábil através da padronização de planilhas de trabalho.</li>
-                        <li>Minimização de inconsistências em conciliações contábeis recorrentes através do rigor na verificação de origem.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Visualizador de PDF (Item 10) -->
-    <div id="pdf-modal" class="modal modal-pdf" role="dialog" aria-modal="true">
-        <div class="modal-content modal-content-pdf">
-            <div class="pdf-modal-header">
-                <span id="pdf-title">Visualizador de Documento</span>
-                <button class="modal-close" onclick="closePDFModal()" aria-label="Fechar visualizador">&times;</button>
-            </div>
-            <div class="pdf-wrapper">
-                <iframe id="pdf-frame" src="" title="Visualizador de PDF"></iframe>
-            </div>
-        </div>
-    </div>
-
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; 2026 Fernando Sanchez. Desenvolvido com rigor técnico e foco em transparência.</p>
+            <p>&copy; <span id="current-year">2026</span> Fernando Sanchez. Construído com transparência, HTML, CSS e JS puro.</p>
+            <a href="#hero" class="back-to-top" aria-label="Voltar ao topo">↑ Topo</a>
         </div>
     </footer>
 
